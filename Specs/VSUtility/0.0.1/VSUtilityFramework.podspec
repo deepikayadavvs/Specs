@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.summary      = "VS pod for utilities"
   s.description  = "A pod of VS for utilities ."
 
-  s.homepage     = "https://github.com/saurabhbhatiavs/VSOneApp.git"
+  s.homepage     = "https://github.com/deepikayadavvs/Specs"
   s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
   s.authors             = { "saurabhbhatiavs" => "saurabh.bhatia@vectoscalar.com",
                             "deepikayadavvs" => "deepika.yadav@vectoscalar.com"
@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "8.0"
   s.ios.deployment_target = "8.0"
  
-  s.source       = { :git => "https://github.com/saurabhbhatiavs/VSOneApp.git", :tag => "v0.0.1" }
+  s.source       = { :git => "https://github.com/deepikayadavvs/Specs", :tag => "v0.0.1" }
 
   s.requires_arc = true
   s.vendored_frameworks = "VSUtilityFramework.framework"
